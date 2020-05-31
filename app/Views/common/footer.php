@@ -43,7 +43,7 @@
                                 <div class="unit-left">
                                     <div class="icon icon-xs text-gray-800 material-icons-location_on"></div>
                                 </div>
-                                <div class="unit-body"><a href="#">My Company , 4578 Marmora Road, Glasgow</a></div>
+                                <div class="unit-body"><a href="#">#467E, 2nd Main, Sidhartha Layout, Whitefield, Bangalore-560067</a></div>
                             </div>
                             <div class="unit unit-spacing-xs">
                                 <div class="unit-left">

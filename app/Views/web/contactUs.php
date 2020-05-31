@@ -50,7 +50,7 @@
                     </dl>
                     <dl>
                         <dt>Address</dt>
-                        <dd><span class="icon icon-primary mdi mdi-map-marker"></span><a class="link" href="#">Polt No- 106/2, Kurua, Bhadrak, Odisha</a></dd>
+                        <dd><span class="icon icon-primary mdi mdi-map-marker"></span><a class="link" href="#">#467E, 2nd Main, Sidhartha Layout, Whitefield, Bangalore-560067</a></dd>
                     </dl>
                     <dl>
                         <dt>Phone</dt>

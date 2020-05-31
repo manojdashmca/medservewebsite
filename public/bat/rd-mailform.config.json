@@ -1,8 +1,8 @@
 {
   "useSmtp": false,
-  "host": "stmp.gmail.com",
-  "port": 465,
-  "username": "demo@gmail.com",
-  "password": "demopassword",
-  "recipientEmail": "demo@gmail.com"
+  "host": "mail.bookmyaddress.in",
+  "port": 587,
+  "username": "hello@medserve.co.in",
+  "password": "Manojgv219!",
+  "recipientEmail": "hello@medserve.co.in"
 }
