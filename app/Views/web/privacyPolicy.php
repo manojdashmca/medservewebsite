@@ -9,9 +9,9 @@
     </div>
 </section>
 <!--Privacy Policy-->
-<section class="section section-md bg-default">
+<section class="section section-xs bg-default">
     <div class="container">
-        <h2>Privacy Policy</h2>
+        <h4>Privacy Policy</h4>
         <!--Terms list-->
         <dl class="list-terms">
             <dt class="h6">General information</dt>
@@ -27,6 +27,6 @@
             <dt class="h6">Sharing Your Information</dt>
             <dd>We share your personal data with your consent or as necessary to complete any transaction or provide any service you have requested or authorized. For example, we share your content with third parties when you tell us to do so. When you provide payment data to make a purchase, we will share payment data with banks and other entities that process payment transactions or provide other financial services, and for fraud prevention and credit risk reduction. In addition, we share personal data among our controlled affiliates and subsidiaries. We also share personal data with vendors or agents working on our behalf for the purposes described in this statement. For example, companies we've hired to provide customer service support or assist in protecting and securing our systems and services may need access to personal data in order to provide those functions. In such cases, these companies must abide by our data privacy and security requirements and are not allowed to use personal data they receive from us for any other purpose. We may also disclose personal data as part of a corporate transaction such as a merger or sale of assets.</dd>
         </dl>
-        <p><a href="mailto:#">privacy@demolink.org</a></p>
+        <p><a href="mailto:#">privacy@medserve.co.in</a></p>
     </div>
 </section>

@@ -1,7 +1,7 @@
 <!--Swiper-->
 <section class="section swiper-container swiper-slider" data-swiper='{"autoplay":{"delay":4567},"effect":"fade"}'>
     <div class="swiper-wrapper">
-        <div class="swiper-slide context-dark" data-slide-bg="images/home-01-2050x708.jpg" style="background-position: 80% center;">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url()?>/images/home-01-2050x708.jpg" style="background-position: 80% center;">
             <div class="swiper-slide-caption section-xl">
                 <div class="container">
                     <div class="hero-box" data-caption-animate="fadeInUp" data-caption-delay="100">
@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide context-dark" data-slide-bg="images/home-02-2050x708.jpg" style="background-position: 30% center;">
+        <div class="swiper-slide context-dark" data-slide-bg="<?=base_url()?>/images/home-02-2050x708.jpg" style="background-position: 30% center;">
             <div class="swiper-slide-caption section-xl">
                 <div class="container text-right">
                     <div class="hero-box text-left" data-caption-animate="fadeInUp" data-caption-delay="100">
@@ -65,7 +65,7 @@
                     <div class="product-classic-pricing">
                         <div class="product-classic-price"></div>
                     </div>
-                    <div class="time-countdown" data-format="DHMS"></div>
+<!--                    <div class="time-countdown" data-format="DHMS"></div>-->
                 </div>
             </article>
             <article class="product-classic">
@@ -189,7 +189,7 @@
         </div>
         <div class="col-12 col-sm-12 col-lg-6 order-3 order-lg-2">
             <div class="banner banner-mod-4" style="background-image: url(images/home-06-1020x510.jpg)">
-                <h2 class="text-primary">Save 5%</h2>
+                <h2 class="text-primary">Save 10%</h2>
                 <h4>on Every Order!</h4>
                 <h5>Medical Supplies & Equipment</h5><a class="btn btn-link btn-icon btn-icon-right" href="#"><span class="icon material-icons-arrow_forward"></span>Shop Now</a>
             </div>
@@ -220,7 +220,7 @@
             <div class="banner banner-mod-6 bg-primary">
                 <div class="banner-content">
                     <h2 class="h4 text-style">Respirators</h2>
-                    <h3 class="h1">20% off</h3><a class="btn btn-white" href="#">Shop Now</a>
+                    <h3 class="h1">10% off</h3><a class="btn btn-white" href="#">Shop Now</a>
                 </div><img src="images/home-08-620x644.png" alt="" width="620" height="644"/>
             </div>
         </div>
@@ -244,7 +244,7 @@
 </section>
 
 <!-- Upcoming News-->
-<section class="section section-md bg-default">
+<!--<section class="section section-md bg-default">
     <div class="container">
         <h4 class="text-center">Upcoming News</h4>
         <div class="row row-30">
@@ -283,4 +283,4 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->

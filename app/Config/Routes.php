@@ -34,6 +34,13 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/privacy-policy', 'Web::privacyPolicy');
 $routes->get('/contact-us', 'Web::contactUs');
+$routes->get('/shipping-delivery', 'Web::shipping');
+$routes->get('/why-choose-us', 'Web::whyChooseUs');
+$routes->get('/carrier', 'Web::weareHiring');
+
+$routes->get('/about-us', 'Web::aboutUs');
+$routes->get('/shopping-cart', 'Web::shoppingCart');
+$routes->get('/checkout', 'Web::checkOut');
 
 
 $routes->get(':any', 'Home::index');

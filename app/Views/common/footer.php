@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row row-40 align-items-center">
                 <div class="col-xl-4 text-center text-xl-left">
-                    <h4>Join our mailing list</h4>
+                    <h5>Join our mailing list</h5>
                     <p>10% off your next order when you sign up + be the first to know about new products and special offers.</p>
                 </div>
                 <div class="col-xxl-5 col-xl-4 col-lg-6">
@@ -59,20 +59,18 @@
                         <div class="col-6">
                             <ul class="footer-list-nav">
                                 <li class="h6"><a href="#">Specials</a></li>
-                                <li class="h6"><a href="#">New products</a></li>
-                                <li class="h6"><a href="#">Our stores</a></li>
-                                <li class="h6"><a href="<?= base_url()?>/contact-us">Contact us</a></li>
-                                <li class="h6"><a href="<?= base_url()?>/about-us">About us</a></li>
-                                <li class="h6"><a href="#">Shipping & Delivery</a></li>
+                                <li class="h6"><a href="#">New Arrival</a></li>
+                                <li class="h6"><a href="<?= base_url() ?>/carrier">Carrier</a></li>
+                                <li class="h6"><a href="<?= base_url() ?>/contact-us">Contact us</a></li>
+                                <li class="h6"><a href="<?= base_url() ?>/about-us">About</a></li>
+                                <li class="h6"><a href="<?= base_url() ?>/shipping-delivery">Shipping</a></li>
                             </ul>
-                        </div>
+                        </div>                        
                         <div class="col-6">
                             <ul class="footer-list-nav">
-                                <li class="h6"><a href="#">My orders</a></li>
-                                <li class="h6"><a href="#">My returns</a></li>
-                                <li class="h6"><a href="#">My credit slips</a></li>
-                                <li class="h6"><a href="#">My addresses</a></li>
-                                <li class="h6"><a href="#">My personal info</a></li>
+                                <li class="h6"><a href="#">Your Account</a></li>
+                                <li class="h6"><a href="#">Your Orders</a></li>                                
+                                <li class="h6"><a href="#">Help</a></li>
                             </ul>
                         </div>
                     </div>
@@ -233,8 +231,44 @@
         </div>
     </div>
 </div>
+<div class="modal modal-upload fade" id="modal-upload">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button class="icon material-icons-clear close" data-dismiss="modal"></button>
+            <div class="modal-body">
+                <h6>Please upload images of valid prescription from your doctor.<small><a href="javascript:void(0);" data-toggle="modal" data-target="#modal-prescription" >Valid prescription</a></small></h6>
+
+                <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/uploadprescription.php">
+                    <div class="form-wrap">
+                        <input class="form-input" id="modal-upload-prescription" type="file" name="prescription" data-constraints="@Required">
+                    </div>
+                    <button class="btn btn-primary" type="submit">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="snackbars" id="form-output-global"></div>
+<div class="modal modal-prescription fade" id="modal-prescription">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button class="icon material-icons-clear close" data-dismiss="modal"></button>
+            <div class="modal-body">
+                <p>Image should be sharp and contain below mentioned 4 points</p>  
+                <img src="images/validrx.svg" width="592" height="269"/>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="<?= base_url() ?>/js/core.min.js"></script>
 <script src="<?= base_url() ?>/js/script.js"></script>
+<script type="text/javascript">
+    $('.close', '#modal-upload').click(function () {
+        $('#modal-upload').modal('hide');
+    });
+    $('.close', '#modal-prescription').click(function () {        
+        $('#modal-prescription').modal('hide');
+    });
+</script>
 </body>
 </html>

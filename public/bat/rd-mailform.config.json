@@ -1,6 +1,6 @@
 {
   "useSmtp": false,
-  "host": "mail.bookmyaddress.in",
+  "host": "mail.medserve.co.in",
   "port": 587,
   "username": "hello@medserve.co.in",
   "password": "Manojgv219!",
