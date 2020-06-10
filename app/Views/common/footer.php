@@ -34,7 +34,7 @@
                     <div class="row row-30 align-items-center">
                         <div class="col-sm-6 col-lg-12">
                             <div class="brand-wrap">
-                                <!--Brand--><a class="brand" href="<?= base_url() ?>/"><img class="brand-logo-dark" src="<?= base_url() ?>/images/logo.png" alt="" width="170" height="55"/><img class="brand-logo-light" src="<?= base_url() ?>/images/logo.png" alt="" width="170" height="55"/></a>
+                                <!--Brand--><a class="brand" href="<?= base_url() ?>"><img class="brand-logo-dark" src="<?= PUBLICPATH ?>/images/logo.png" alt="" width="170" height="55"/><img class="brand-logo-light" src="<?= PUBLICPATH ?>/images/logo.png" alt="" width="170" height="55"/></a>
                             </div>
                             <p class="text-gray-800">Welcome to the largest online store of home medical supplies. Here you’ll be able to find everything you need for proper health care, including the latest inventions in this field.</p>
                         </div>
@@ -125,7 +125,12 @@
                     <div class="bg-decor"></div>
                 </div>
             </div>
-            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Medserve</span><span>.&nbsp;</span><a href="<?= base_url() ?>/privacy-policy">Privacy Policy</a></p>
+            <p class="rights"><span>&copy;&nbsp;</span>
+                <span class="copyright-year"></span>
+                <span>&nbsp;</span><span>Medserve</span>
+                <span>.&nbsp;</span>
+                <a href="<?= base_url() ?>/privacy-policy">Privacy Policy</a>
+            </p>
         </div>
     </div>
 </footer>
@@ -260,13 +265,13 @@
         </div>
     </div>
 </div>
-<script src="<?= base_url() ?>/js/core.min.js"></script>
-<script src="<?= base_url() ?>/js/script.js"></script>
+<script src="<?= PUBLICPATH ?>/js/core.min.js"></script>
+<script src="<?= PUBLICPATH ?>/js/script.js"></script>
 <script type="text/javascript">
     $('.close', '#modal-upload').click(function () {
         $('#modal-upload').modal('hide');
     });
-    $('.close', '#modal-prescription').click(function () {        
+    $('.close', '#modal-prescription').click(function () {
         $('#modal-prescription').modal('hide');
     });
 </script>

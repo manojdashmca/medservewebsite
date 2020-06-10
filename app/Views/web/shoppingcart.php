@@ -2,7 +2,7 @@
 <section class="breadcrumbs">
     <div class="container">
         <ul class="breadcrumbs-path">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="<?= base_url() ?>">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li class="active">Shopping Cart</li>
         </ul>
@@ -28,7 +28,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <div class="product-cart-name"><a class="product-cart-media" href="product-page.html"><img src="images/product-01-174x199.png" alt="" width="174" height="199"/></a>
+                                <div class="product-cart-name"><a class="product-cart-media" href="product-page.html"><img src="<?= PUBLICPATH ?>images/product-01-174x199.png" alt="" width="174" height="199"/></a>
                                     <p class="product-cart-title"><a href="product-page.html">Aamra Homemade Tomato Garlic Basil Pizza Pasta Sauce</a></p>
                                 </div>
                             </td>
@@ -49,7 +49,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <div class="product-cart-name"><a class="product-cart-media" href="product-page.html"><img src="images/product-02-174x199.png" alt="" width="174" height="199"/></a>
+                                <div class="product-cart-name"><a class="product-cart-media" href="product-page.html"><img src="<?= PUBLICPATH ?>images/product-02-174x199.png" alt="" width="174" height="199"/></a>
                                     <p class="product-cart-title"><a href="product-page.html">Aamra Homemade Tomato Garlic Basil Pizza Pasta Sauce</a></p>
                                 </div>
                             </td>

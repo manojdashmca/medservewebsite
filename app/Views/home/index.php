@@ -1,7 +1,7 @@
 <!--Swiper-->
 <section class="section swiper-container swiper-slider" data-swiper='{"autoplay":{"delay":4567},"effect":"fade"}'>
     <div class="swiper-wrapper">
-        <div class="swiper-slide context-dark" data-slide-bg="<?= base_url()?>/images/home-01-2050x708.jpg" style="background-position: 80% center;">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= PUBLICPATH ?>/images/home-01-2050x708.jpg" style="background-position: 80% center;">
             <div class="swiper-slide-caption section-xl">
                 <div class="container">
                     <div class="hero-box" data-caption-animate="fadeInUp" data-caption-delay="100">
@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide context-dark" data-slide-bg="<?=base_url()?>/images/home-02-2050x708.jpg" style="background-position: 30% center;">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= PUBLICPATH ?>/images/home-02-2050x708.jpg" style="background-position: 30% center;">
             <div class="swiper-slide-caption section-xl">
                 <div class="container text-right">
                     <div class="hero-box text-left" data-caption-animate="fadeInUp" data-caption-delay="100">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide context-dark" data-slide-bg="images/home-03-2050x708.jpg">
+        <div class="swiper-slide context-dark" data-slide-bg="<?= PUBLICPATH ?>/images/home-03-2050x708.jpg">
             <div class="swiper-slide-caption section-xl">
                 <div class="container text-center">
                     <div class="hero-box" data-caption-animate="fadeInUp" data-caption-delay="100">
@@ -50,7 +50,7 @@
                         <li><a class="icon material-icons-favorite_border" href="#"></a></li>
                         <li><a class="icon material-icons-content_copy" href="#"></a></li>
                     </ul>
-                    <figure class="product-classic-figure"><img src="images/product-01-174x199.png" alt="" width="174" height="199"/>
+                    <figure class="product-classic-figure"><img src="<?= PUBLICPATH ?>/images/product-01-174x199.png" alt="" width="174" height="199"/>
                     </figure>
                     <div class="product-classic-buttons">
                         <button class="btn btn-white" data-toggle="modal" data-target="#modal-product">quick view</button><a class="btn btn-primary" href="#">add to cart</a>
@@ -65,7 +65,7 @@
                     <div class="product-classic-pricing">
                         <div class="product-classic-price"></div>
                     </div>
-<!--                    <div class="time-countdown" data-format="DHMS"></div>-->
+                    <!--                    <div class="time-countdown" data-format="DHMS"></div>-->
                 </div>
             </article>
             <article class="product-classic">
@@ -74,7 +74,7 @@
                         <li><a class="icon material-icons-favorite_border" href="#"></a></li>
                         <li><a class="icon material-icons-content_copy" href="#"></a></li>
                     </ul>
-                    <figure class="product-classic-figure"><img src="images/product-02-174x199.png" alt="" width="174" height="199"/>
+                    <figure class="product-classic-figure"><img src="<?= PUBLICPATH ?>/images/product-02-174x199.png" alt="" width="174" height="199"/>
                     </figure>
                     <div class="product-classic-buttons">
                         <button class="btn btn-white" data-toggle="modal" data-target="#modal-product">quick view</button><a class="btn btn-primary" href="#">add to cart</a>
@@ -93,7 +93,7 @@
                         <li><a class="icon material-icons-favorite_border" href="#"></a></li>
                         <li><a class="icon material-icons-content_copy" href="#"></a></li>
                     </ul>
-                    <figure class="product-classic-figure"><img src="images/product-03-174x199.png" alt="" width="174" height="199"/>
+                    <figure class="product-classic-figure"><img src="<?= PUBLICPATH ?>/images/product-03-174x199.png" alt="" width="174" height="199"/>
                     </figure>
                     <div class="product-classic-buttons">
                         <button class="btn btn-white" data-toggle="modal" data-target="#modal-product">quick view</button><a class="btn btn-primary" href="#">add to cart</a>
@@ -112,7 +112,7 @@
                         <li><a class="icon material-icons-favorite_border" href="#"></a></li>
                         <li><a class="icon material-icons-content_copy" href="#"></a></li>
                     </ul>
-                    <figure class="product-classic-figure"><img src="images/product-04-174x199.png" alt="" width="174" height="199"/>
+                    <figure class="product-classic-figure"><img src="<?= PUBLICPATH ?>/images/product-04-174x199.png" alt="" width="174" height="199"/>
                     </figure>
                     <div class="product-classic-buttons">
                         <button class="btn btn-white" data-toggle="modal" data-target="#modal-product">quick view</button><a class="btn btn-primary" href="#">add to cart</a>
@@ -131,7 +131,7 @@
                         <li><a class="icon material-icons-favorite_border" href="#"></a></li>
                         <li><a class="icon material-icons-content_copy" href="#"></a></li>
                     </ul>
-                    <figure class="product-classic-figure"><img src="images/product-05-174x199.png" alt="" width="174" height="199"/>
+                    <figure class="product-classic-figure"><img src="<?= PUBLICPATH ?>/images/product-05-174x199.png" alt="" width="174" height="199"/>
                     </figure>
                     <div class="product-classic-buttons">
                         <button class="btn btn-white" data-toggle="modal" data-target="#modal-product">quick view</button><a class="btn btn-primary" href="#">add to cart</a>
@@ -150,7 +150,7 @@
                         <li><a class="icon material-icons-favorite_border" href="#"></a></li>
                         <li><a class="icon material-icons-content_copy" href="#"></a></li>
                     </ul>
-                    <figure class="product-classic-figure"><img src="images/product-06-174x199.png" alt="" width="174" height="199"/>
+                    <figure class="product-classic-figure"><img src="<?= PUBLICPATH ?>/images/product-06-174x199.png" alt="" width="174" height="199"/>
                     </figure>
                     <div class="product-classic-buttons">
                         <button class="btn btn-white" data-toggle="modal" data-target="#modal-product">quick view</button><a class="btn btn-primary" href="#">add to cart</a>
@@ -171,7 +171,7 @@
 <section class="section">
     <div class="row no-gutters">
         <div class="col-12 col-sm-6 col-lg-3 order-1">
-            <div class="banner banner-mod-1" style="background-image: url(images/home-04-517x1021.jpg)">
+            <div class="banner banner-mod-1" style="background-image: url(<?= PUBLICPATH ?>/images/home-04-517x1021.jpg)">
                 <h2>MEDICAL GLOVES</h2>
                 <h5>Here we have a range of gloves from EMS gloves, to exam gloves, to surgical gloves.</h5><a class="btn btn-white" href="#">Shop Now</a>
             </div>
@@ -188,7 +188,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-12 col-lg-6 order-3 order-lg-2">
-            <div class="banner banner-mod-4" style="background-image: url(images/home-06-1020x510.jpg)">
+            <div class="banner banner-mod-4" style="background-image: url(<?= PUBLICPATH ?>/images/home-06-1020x510.jpg)">
                 <h2 class="text-primary">Save 10%</h2>
                 <h4>on Every Order!</h4>
                 <h5>Medical Supplies & Equipment</h5><a class="btn btn-link btn-icon btn-icon-right" href="#"><span class="icon material-icons-arrow_forward"></span>Shop Now</a>
@@ -202,7 +202,7 @@
 </section>
 
 <!-- Medical Apparel-->
-<section class="section section-xxl bg-image bg-image-1" style="background-image: url(images/home-07-2050x708.jpg)">
+<section class="section section-xxl bg-image bg-image-1" style="background-image: url(<?= PUBLICPATH ?>/images/home-07-2050x708.jpg)">
     <div class="container">
         <div class="row">
             <div class="col-12 offset-xxl-1">
@@ -221,7 +221,7 @@
                 <div class="banner-content">
                     <h2 class="h4 text-style">Respirators</h2>
                     <h3 class="h1">10% off</h3><a class="btn btn-white" href="#">Shop Now</a>
-                </div><img src="images/home-08-620x644.png" alt="" width="620" height="644"/>
+                </div><img src="<?= PUBLICPATH ?>/images/home-08-620x644.png" alt="" width="620" height="644"/>
             </div>
         </div>
         <div class="col-lg-6">
@@ -237,7 +237,7 @@
                 <div class="col-sm-6"><a class="banner banner-mod-7 context-dark" href="#" style="background-image: url(images/home-09-513x510.jpg)">
                         <h2>Sale 10%</h2>
                         <h4 class="text-style">Protective Masks</h4></a></div>
-            </div><a class="banner banner-mod-3" href="#" style="background-image: url(images/home-10-1026x510.jpg)">
+            </div><a class="banner banner-mod-3" href="#" style="background-image: url(<?= PUBLICPATH ?>/images/home-10-1026x510.jpg)">
                 <h4 class="banner-title">Bestsellers from Top Brands</h4></a>
         </div>
     </div>
