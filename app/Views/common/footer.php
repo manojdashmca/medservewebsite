@@ -175,7 +175,7 @@
                     </div>
                     <button class="btn btn-primary" type="submit">subscribe</button>
                 </form>
-            </div><img src="images/modal-01-592x269.jpg" alt="" width="592" height="269"/>
+            </div><img src="<?= PUBLICPATH ?>images/modal-01-592x269.jpg" alt="" width="592" height="269"/>
         </div>
     </div>
 </div>
@@ -243,7 +243,7 @@
             <div class="modal-body">
                 <h6>Please upload images of valid prescription from your doctor.<small><a href="javascript:void(0);" data-toggle="modal" data-target="#modal-prescription" >Valid prescription</a></small></h6>
 
-                <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/uploadprescription.php">
+                <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="<?= PUBLICPATH ?>/bat/uploadprescription.php">
                     <div class="form-wrap">
                         <input class="form-input" id="modal-upload-prescription" type="file" name="prescription" data-constraints="@Required">
                     </div>
@@ -260,7 +260,7 @@
             <button class="icon material-icons-clear close" data-dismiss="modal"></button>
             <div class="modal-body">
                 <p>Image should be sharp and contain below mentioned 4 points</p>  
-                <img src="images/validrx.svg" width="592" height="269"/>
+                <img src="<?= PUBLICPATH ?>/images/validrx.svg" width="592" height="269"/>
             </div>
         </div>
     </div>

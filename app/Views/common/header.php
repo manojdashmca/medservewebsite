@@ -90,50 +90,50 @@
                                         </li>
                                         <li class="rd-nav-item"><a class="rd-nav-link" href="#">diet &amp; nutrition</a>
                                         </li>
-                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#">personal care</a>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#">women care</a>
                                         </li>
-                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#">beauty</a>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#">baby care</a>
                                         </li>
                                         <li class="rd-nav-item"><a class="rd-nav-link" href="#">fitness &amp; vitamins</a>
                                         </li>
-                                        <!--                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Shop</a>
-                                                              <ul class="rd-menu rd-navbar-dropdown">
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-shop.html">Grid Shop</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="list-shop.html">List Shop</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="product-page.html">Product Page</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="shopping-cart.html">Shopping Cart</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="checkout.html">Checkout</a>
-                                                                </li>
-                                                              </ul>
-                                                            </li>
-                                                            <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
-                                                              <ul class="rd-menu rd-navbar-dropdown">
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="buttons.html">Buttons</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="forms.html">Forms</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-system.html">Grid System</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="privacy-policy.html">Privacy Policy</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="progress-bars.html">Progress Bars</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="search-results.html">Search Results</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="tables.html">Tables</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="tabs-and-accordions.html">Tabs and Accordions</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="typography.html">Typography</a>
-                                                                </li>
-                                                                <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="under-construction.html">Under Construction</a>
-                                                                </li>
-                                                              </ul>
-                                                            </li>-->
+                                        <!--                                                            <li class="rd-nav-item"><a class="rd-nav-link" href="#">Shop</a>
+                                                                                                      <ul class="rd-menu rd-navbar-dropdown">
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-shop.html">Grid Shop</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="list-shop.html">List Shop</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="product-page.html">Product Page</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="shopping-cart.html">Shopping Cart</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="checkout.html">Checkout</a>
+                                                                                                        </li>
+                                                                                                      </ul>
+                                                                                                    </li>
+                                                                                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
+                                                                                                      <ul class="rd-menu rd-navbar-dropdown">
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="buttons.html">Buttons</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="forms.html">Forms</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-system.html">Grid System</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="privacy-policy.html">Privacy Policy</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="progress-bars.html">Progress Bars</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="search-results.html">Search Results</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="tables.html">Tables</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="tabs-and-accordions.html">Tabs and Accordions</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="typography.html">Typography</a>
+                                                                                                        </li>
+                                                                                                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="under-construction.html">Under Construction</a>
+                                                                                                        </li>
+                                                                                                      </ul>
+                                                                                                    </li>-->
                                         <li class="rd-nav-item"><a class="rd-nav-link" href="<?= base_url() ?>/contact-us">Contacts</a>
                                         </li>
                                     </ul>
@@ -150,55 +150,67 @@
                                             <button class="icon material-icons-favorite_border" data-toggle="modal" data-target="#modal-subscribe"></button>
                                         </li>
                                         <li>
-                                            <button class="icon material-icons-perm_identity" data-toggle="modal" data-target="#modal-login"></button>
+                                            <button class="icon material-icons-perm_identity" data-rd-navbar-toggle="#login-menu" ></button><!--data-toggle="modal" data-target="#modal-login"-->
+                                            <article class="login-menu login-menu-toggled" id="login-menu">
+                                                <div class="login-menu-inner">
+                                                    <div class="login-menu-header">                                                        
+                                                        <p class="login-menu-subtitle"><a href="<?= base_url() ?>/user/myAccount">My Account</a></p>
+                                                        <p class="login-menu-subtitle"><a href="<?= base_url() ?>/user/myOrders">My Orders</a></p>                                                        
+                                                        <p class="login-menu-subtitle"><a href="<?= base_url() ?>/user/walletTransaction">Wallet Transaction</a></p>
+                                                        <p class="login-menu-subtitle"><a href="<?= base_url() ?>/user/manageAddress">Manage Address</a></p>
+                                                        <p class="login-menu-subtitle"><a href="<?= base_url() ?>/user/changePassword">Change Password</a></p>
+                                                        <p class="login-menu-subtitle"><a href="<?= base_url() ?>/user/logout">Logout</a></p>
+                                                    </div>
+                                                </div>
+                                            </article>
                                         </li>
                                         <li>
                                             <div class="rd-navbar-cart-button-wrap">
                                                 <button class="rd-navbar-cart-button icon material-icons-shopping_cart" data-rd-navbar-toggle="#cart-inline"></button>
-                                                <!--                                                <div class="rd-navbar-badge"></div>-->
+                                                <div class="rd-navbar-badge">2</div>
                                             </div>
                                             <!-- Cart Inline-->
-                                            <!--                                            <article class="cart-inline cart-inline-toggled" id="cart-inline">
-                                                                                            <div class="cart-inline-inner">
-                                                                                                <div class="cart-inline-header">
-                                                                                                    <h5 class="cart-inline-title">In cart: 2 products</h5>
-                                                                                                    <p class="cart-inline-subtitle">total price: $42.00</p>
-                                                                                                </div>
-                                                                                                <div class="cart-inline-main">
-                                                                                                    
-                                                                                                    <article class="product-inline">
-                                                                                                        <div class="product-inline-aside"><a class="product-inline-figure" href="product-page.html"><img class="product-inline-image" src="images/product-01-174x199.png" alt="" width="174" height="199"/></a></div>
-                                                                                                        <div class="product-inline-main">
-                                                                                                            <div class="product-inline-title"><a href="product-page.html">Aamra Homemade Tomato Garlic Basil Pizza Pasta Sauce</a></div>
-                                                                                                            <ul class="product-inline-meta">
-                                                                                                                <li class="stepper-modern">
-                                                                                                                    <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="100">
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                    <p class="product-inline-price">$28.00</p>
-                                                                                                                </li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                    </article>
-                                                                                                    
-                                                                                                    <article class="product-inline">
-                                                                                                        <div class="product-inline-aside"><a class="product-inline-figure" href="product-page.html"><img class="product-inline-image" src="images/product-02-174x199.png" alt="" width="174" height="199"/></a></div>
-                                                                                                        <div class="product-inline-main">
-                                                                                                            <div class="product-inline-title"><a href="product-page.html">Aamra Homemade Tomato Garlic Basil Pizza Pasta Sauce</a></div>
-                                                                                                            <ul class="product-inline-meta">
-                                                                                                                <li class="stepper-modern">
-                                                                                                                    <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="100">
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                    <p class="product-inline-price">$14.00</p>
-                                                                                                                </li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                    </article>
-                                                                                                </div>
-                                                                                                <div class="cart-inline-footer"><a class="btn btn-primary" href="shopping-cart.html">Go to Cart</a><a class="btn btn-primary" href="checkout.html">Checkout</a></div>
-                                                                                            </div>
-                                                                                        </article>-->
+                                            <article class="cart-inline cart-inline-toggled" id="cart-inline">
+                                                <div class="cart-inline-inner">
+                                                    <div class="cart-inline-header">
+                                                        <h5 class="cart-inline-title">In cart: 2 products</h5>
+                                                        <p class="cart-inline-subtitle">total price: $42.00</p>
+                                                    </div>
+                                                    <div class="cart-inline-main">
+
+                                                        <article class="product-inline">
+                                                            <div class="product-inline-aside"><a class="product-inline-figure" href="product-page.html"><img class="product-inline-image" src="images/product-01-174x199.png" alt="" width="174" height="199"/></a></div>
+                                                            <div class="product-inline-main">
+                                                                <div class="product-inline-title"><a href="product-page.html">Aamra Homemade Tomato Garlic Basil Pizza Pasta Sauce</a></div>
+                                                                <ul class="product-inline-meta">
+                                                                    <li class="stepper-modern">
+                                                                        <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="100">
+                                                                    </li>
+                                                                    <li>
+                                                                        <p class="product-inline-price">$28.00</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </article>
+
+                                                        <article class="product-inline">
+                                                            <div class="product-inline-aside"><a class="product-inline-figure" href="product-page.html"><img class="product-inline-image" src="images/product-02-174x199.png" alt="" width="174" height="199"/></a></div>
+                                                            <div class="product-inline-main">
+                                                                <div class="product-inline-title"><a href="product-page.html">Aamra Homemade Tomato Garlic Basil Pizza Pasta Sauce</a></div>
+                                                                <ul class="product-inline-meta">
+                                                                    <li class="stepper-modern">
+                                                                        <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="100">
+                                                                    </li>
+                                                                    <li>
+                                                                        <p class="product-inline-price">$14.00</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </article>
+                                                    </div>
+                                                    <div class="cart-inline-footer"><a class="btn btn-primary" href="shopping-cart.html">Go to Cart</a><a class="btn btn-primary" href="checkout.html">Checkout</a></div>
+                                                </div>
+                                            </article>
                                         </li>
                                     </ul>
                                 </div>

@@ -35,7 +35,7 @@
                             <div class="divider-small"></div>
                             <div class="row justify-content-center">
                                 <div class="col-xxl-10">
-                                    <div class="countdown" data-countdown="data-countdown" data-to="2020-12-31">
+                                    <div class="countdown" data-countdown="data-countdown" data-to="2020-07-31">
                                         <div class="countdown-block countdown-block-days">
                                             <svg class="countdown-circle" x="0" y="0" width="300" height="300" viewbox="0 0 300 300" data-progress-days="">
                                             <circle class="countdown-circle-bg" cx="150" cy="150" r="130"></circle>
@@ -81,7 +81,7 @@
                             </div>
                             <p><span style="max-width: 450px;">Our website is under construction, we are working very hard to give you the best experience on our new web site.</span></p>
                             <div class="rd-mailform-wrap">
-                                <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+                                <form class="rd-form rd-mailform rd-form-inline" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="<?= PUBLICPATH ?>/bat/rd-mailform.php">
                                     <div class="form-wrap">
                                         <input class="form-input" id="subscribe-form-email" type="email" name="email" data-constraints="@Email @Required">
                                         <label class="form-label" for="subscribe-form-email">E-mail</label>

@@ -16,7 +16,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Web');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -30,20 +30,30 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+//$routes->get('/', 'Home::index');
+//
+//$routes->get('/privacy-policy', 'Web::privacyPolicy');
+//$routes->get('/contact-us', 'Web::contactUs');
+//$routes->get('/shipping-delivery', 'Web::shipping');
+//$routes->get('/why-choose-us', 'Web::whyChooseUs');
+//$routes->get('/carrier', 'Web::weareHiring');
+//
+//$routes->get('/about-us', 'Web::aboutUs');
+//$routes->get('/shopping-cart', 'Web::shoppingCart');
+//$routes->get('/checkout', 'Web::checkOut');
+//
+//$routes->get('/user/myAccount', 'User::myAccount');
+//$routes->get('/user/myOrders', 'User::myOrders');
+//$routes->get('/user/walletTransaction', 'User::walletTransaction');
+//$routes->get('/user/manageAddress', 'User::manageAddress');
+//$routes->get('/user/changePassword', 'User::changePassword');
+//$routes->get('/user/logout', 'User::logout');
 
-$routes->get('/privacy-policy', 'Web::privacyPolicy');
-$routes->get('/contact-us', 'Web::contactUs');
-$routes->get('/shipping-delivery', 'Web::shipping');
-$routes->get('/why-choose-us', 'Web::whyChooseUs');
-$routes->get('/carrier', 'Web::weareHiring');
-
-$routes->get('/about-us', 'Web::aboutUs');
-$routes->get('/shopping-cart', 'Web::shoppingCart');
-$routes->get('/checkout', 'Web::checkOut');
 
 
-$routes->get(':any', 'Home::index');
+
+
+$routes->get(':any', 'Web::index');
 
 /**
  * --------------------------------------------------------------------

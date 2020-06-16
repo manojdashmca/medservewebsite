@@ -3,7 +3,18 @@
 namespace App\Controllers;
 
 class Web extends BaseController {
-    
+
+    public function index() {
+        if (!is_file(APPPATH . '/Views/web/index.php')) {
+            // Whoops, we don't have a page for that!
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('index');
+        }
+
+        $data['title'] = ucfirst('Lunching Soon'); // Capitalize the first letter
+
+
+        echo view('web/index', $data);
+    }
 
     public function privacyPolicy() {
 
@@ -18,6 +29,7 @@ class Web extends BaseController {
         echo view('web/privacyPolicy', $data);
         echo view('common/footer', $data);
     }
+
     public function contactUs() {
 
         if (!is_file(APPPATH . '/Views/web/contactUs.php')) {
@@ -31,7 +43,7 @@ class Web extends BaseController {
         echo view('web/contactUs', $data);
         echo view('common/footer', $data);
     }
-    
+
     public function shipping() {
 
         if (!is_file(APPPATH . '/Views/web/shipping.php')) {
@@ -39,14 +51,14 @@ class Web extends BaseController {
             throw new \CodeIgniter\Exceptions\PageNotFoundException('shipping');
         }
 
-        $data['title'] = ucfirst('Contact Us'); // Capitalize the first letter
+        $data['title'] = ucfirst('Shipping ANd Delivery'); // Capitalize the first letter
 
         echo view('common/header', $data);
         echo view('web/shipping', $data);
         echo view('common/footer', $data);
     }
-    
-    public function aboutUs(){
+
+    public function aboutUs() {
         if (!is_file(APPPATH . '/Views/web/aboutus.php')) {
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException('aboutus');
@@ -58,8 +70,8 @@ class Web extends BaseController {
         echo view('web/aboutus', $data);
         echo view('common/footer', $data);
     }
-    
-    public function whyChooseUs(){
+
+    public function whyChooseUs() {
         if (!is_file(APPPATH . '/Views/web/whychooseus.php')) {
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException('whychooseus');
@@ -71,8 +83,8 @@ class Web extends BaseController {
         echo view('web/whychooseus', $data);
         echo view('common/footer', $data);
     }
-    
-    public function checkOut(){
+
+    public function checkOut() {
         if (!is_file(APPPATH . '/Views/web/checkout.php')) {
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException('checkout');
@@ -82,10 +94,10 @@ class Web extends BaseController {
 
         echo view('common/header', $data);
         echo view('web/checkout', $data);
-        echo view('common/footer', $data); 
+        echo view('common/footer', $data);
     }
-    
-    public function shoppingCart(){
+
+    public function shoppingCart() {
         if (!is_file(APPPATH . '/Views/web/shoppingcart.php')) {
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException('shoppingcart');
@@ -97,8 +109,8 @@ class Web extends BaseController {
         echo view('web/shoppingcart', $data);
         echo view('common/footer', $data);
     }
-    
-    public function weareHiring(){
+
+    public function weareHiring() {
         if (!is_file(APPPATH . '/Views/web/carrier.php')) {
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException('carrier');
@@ -108,6 +120,7 @@ class Web extends BaseController {
 
         echo view('common/header', $data);
         echo view('web/carrier', $data);
-        echo view('common/footer', $data); 
+        echo view('common/footer', $data);
     }
+
 }

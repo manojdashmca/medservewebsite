@@ -177,7 +177,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-lg-3 order-2 order-lg-3">
-            <div class="banners-revers"><a class="banner banner-mod-3" href="#" style="background-image: url(images/home-05-513x510.jpg)">
+            <div class="banners-revers"><a class="banner banner-mod-3" href="#" style="background-image: url(<?= PUBLICPATH ?>/images/home-05-513x510.jpg)">
                     <h4 class="banner-title">-20% for antiseptic</h4></a>
                 <div class="banner banner-mod-2 bg-primary-light">
                     <div class="banner-content">
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6"><a class="banner banner-mod-7 context-dark" href="#" style="background-image: url(images/home-09-513x510.jpg)">
+                <div class="col-sm-6"><a class="banner banner-mod-7 context-dark" href="#" style="background-image: url(<?= PUBLICPATH ?>/images/home-09-513x510.jpg)">
                         <h2>Sale 10%</h2>
                         <h4 class="text-style">Protective Masks</h4></a></div>
             </div><a class="banner banner-mod-3" href="#" style="background-image: url(<?= PUBLICPATH ?>/images/home-10-1026x510.jpg)">
